@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nacos_springcloud_consumer_oder" />
+        <module name="nacos_springcloud_producer_user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nacos_demo" target="1.5" />
+      <module name="nacos_springcloud" target="1.5" />
+      <module name="nacos_springcloud_consumer_oder" target="1.5" />
+      <module name="nacos_springcloud_producer_user" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
